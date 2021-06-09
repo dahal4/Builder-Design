@@ -1,8 +1,8 @@
 package builderDesign;
 
-public class Wrapper implements Packing{
+public class Wrapper implements Packing {
     @Override
-    public String pack(){
+    public String pack() {
         return "Wrapper";
     }
 }

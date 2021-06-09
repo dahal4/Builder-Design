@@ -1,10 +1,11 @@
 package builderDesign;
 
-public abstract class ColdDrink implements Item{
+public abstract class ColdDrink implements Item {
     @Override
-    public Packing packing(){
+    public Packing packing() {
         return new Bottle();
     }
+
     @Override
-    public abstract  float price();
+    public abstract float price();
 }

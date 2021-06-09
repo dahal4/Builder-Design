@@ -1,6 +1,6 @@
 package builderDesign;
 
-public class Coke extends ColdDrink{
+public class Coke extends ColdDrink {
     @Override
     public String name() {
         return "Coke";

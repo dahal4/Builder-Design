@@ -1,6 +1,6 @@
 package builderDesign;
 
-public class VegBurger extends Burger{
+public class VegBurger extends Burger {
     @Override
     public String name() {
         return "Veg Burger";
